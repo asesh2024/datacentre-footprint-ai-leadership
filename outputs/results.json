@@ -1,0 +1,917 @@
+{
+ "calibrated_g_c1": 0.11946370899219093,
+ "scenarios": [
+  {
+   "Scenario": "Base",
+   "Year": 2024,
+   "Electricity_TWh": 415.0,
+   "AI_share_pct": 15.0,
+   "PUE": 1.4,
+   "Grid_gCO2_kWh": 473.0,
+   "CO2_Mt": 196.3,
+   "Water_km3": 1.27,
+   "Direct_water_km3": 0.44
+  },
+  {
+   "Scenario": "Base",
+   "Year": 2030,
+   "Electricity_TWh": 945.0,
+   "AI_share_pct": 30.21,
+   "PUE": 1.33,
+   "Grid_gCO2_kWh": 401.36,
+   "CO2_Mt": 379.29,
+   "Water_km3": 2.48,
+   "Direct_water_km3": 0.87
+  },
+  {
+   "Scenario": "Base",
+   "Year": 2035,
+   "Electricity_TWh": 1178.29,
+   "AI_share_pct": 37.55,
+   "PUE": 1.28,
+   "Grid_gCO2_kWh": 350.03,
+   "CO2_Mt": 412.43,
+   "Water_km3": 2.66,
+   "Direct_water_km3": 0.92
+  },
+  {
+   "Scenario": "Lift-Off",
+   "Year": 2024,
+   "Electricity_TWh": 415.0,
+   "AI_share_pct": 15.0,
+   "PUE": 1.4,
+   "Grid_gCO2_kWh": 473.0,
+   "CO2_Mt": 196.3,
+   "Water_km3": 1.27,
+   "Direct_water_km3": 0.44
+  },
+  {
+   "Scenario": "Lift-Off",
+   "Year": 2030,
+   "Electricity_TWh": 1116.01,
+   "AI_share_pct": 33.78,
+   "PUE": 1.34,
+   "Grid_gCO2_kWh": 419.0,
+   "CO2_Mt": 467.61,
+   "Water_km3": 3.09,
+   "Direct_water_km3": 1.11
+  },
+  {
+   "Scenario": "Lift-Off",
+   "Year": 2035,
+   "Electricity_TWh": 1683.23,
+   "AI_share_pct": 45.64,
+   "PUE": 1.3,
+   "Grid_gCO2_kWh": 378.75,
+   "CO2_Mt": 637.52,
+   "Water_km3": 4.25,
+   "Direct_water_km3": 1.55
+  },
+  {
+   "Scenario": "High Efficiency",
+   "Year": 2024,
+   "Electricity_TWh": 415.0,
+   "AI_share_pct": 15.0,
+   "PUE": 1.4,
+   "Grid_gCO2_kWh": 473.0,
+   "CO2_Mt": 196.3,
+   "Water_km3": 1.27,
+   "Direct_water_km3": 0.44
+  },
+  {
+   "Scenario": "High Efficiency",
+   "Year": 2030,
+   "Electricity_TWh": 761.04,
+   "AI_share_pct": 29.69,
+   "PUE": 1.27,
+   "Grid_gCO2_kWh": 370.24,
+   "CO2_Mt": 281.77,
+   "Water_km3": 1.8,
+   "Direct_water_km3": 0.6
+  },
+  {
+   "Scenario": "High Efficiency",
+   "Year": 2035,
+   "Electricity_TWh": 830.05,
+   "AI_share_pct": 35.48,
+   "PUE": 1.18,
+   "Grid_gCO2_kWh": 301.89,
+   "CO2_Mt": 250.58,
+   "Water_km3": 1.48,
+   "Direct_water_km3": 0.42
+  },
+  {
+   "Scenario": "Headwinds",
+   "Year": 2024,
+   "Electricity_TWh": 415.0,
+   "AI_share_pct": 15.0,
+   "PUE": 1.4,
+   "Grid_gCO2_kWh": 473.0,
+   "CO2_Mt": 196.3,
+   "Water_km3": 1.27,
+   "Direct_water_km3": 0.44
+  },
+  {
+   "Scenario": "Headwinds",
+   "Year": 2030,
+   "Electricity_TWh": 693.28,
+   "AI_share_pct": 26.05,
+   "PUE": 1.36,
+   "Grid_gCO2_kWh": 419.0,
+   "CO2_Mt": 290.49,
+   "Water_km3": 1.91,
+   "Direct_water_km3": 0.68
+  },
+  {
+   "Scenario": "Headwinds",
+   "Year": 2035,
+   "Electricity_TWh": 752.35,
+   "AI_share_pct": 29.96,
+   "PUE": 1.33,
+   "Grid_gCO2_kWh": 378.75,
+   "CO2_Mt": 284.95,
+   "Water_km3": 1.88,
+   "Direct_water_km3": 0.68
+  }
+ ],
+ "mc": [
+  {
+   "Variable": "elec",
+   "Unit": "TWh",
+   "Year": 2030,
+   "Mean": 917.9,
+   "P5": 782.5,
+   "P25": 859.1,
+   "Median": 916.1,
+   "P75": 974.8,
+   "P95": 1058.5
+  },
+  {
+   "Variable": "elec",
+   "Unit": "TWh",
+   "Year": 2035,
+   "Mean": 1149.7,
+   "P5": 937.0,
+   "P25": 1051.3,
+   "Median": 1141.0,
+   "P75": 1239.9,
+   "P95": 1392.7
+  },
+  {
+   "Variable": "co2",
+   "Unit": "Mt CO2",
+   "Year": 2030,
+   "Mean": 364.0,
+   "P5": 304.5,
+   "P25": 337.7,
+   "Median": 362.8,
+   "P75": 388.9,
+   "P95": 427.9
+  },
+  {
+   "Variable": "co2",
+   "Unit": "Mt CO2",
+   "Year": 2035,
+   "Mean": 394.4,
+   "P5": 303.8,
+   "P25": 352.2,
+   "Median": 390.8,
+   "P75": 431.7,
+   "P95": 499.5
+  },
+  {
+   "Variable": "water",
+   "Unit": "km3",
+   "Year": 2030,
+   "Mean": 2.5,
+   "P5": 1.9,
+   "P25": 2.2,
+   "Median": 2.4,
+   "P75": 2.7,
+   "P95": 3.1
+  },
+  {
+   "Variable": "water",
+   "Unit": "km3",
+   "Year": 2035,
+   "Mean": 2.6,
+   "P5": 1.8,
+   "P25": 2.3,
+   "Median": 2.6,
+   "P75": 3.0,
+   "P95": 3.5
+  },
+  {
+   "Variable": "ai_elec",
+   "Unit": "TWh",
+   "Year": 2030,
+   "Mean": 280.7,
+   "P5": 190.5,
+   "P25": 236.4,
+   "Median": 277.4,
+   "P75": 320.7,
+   "P95": 384.7
+  },
+  {
+   "Variable": "ai_elec",
+   "Unit": "TWh",
+   "Year": 2035,
+   "Mean": 441.8,
+   "P5": 280.6,
+   "P25": 358.0,
+   "Median": 429.9,
+   "P75": 513.1,
+   "P95": 644.5
+  }
+ ],
+ "mc_prob_co2_2035_above_2024": 1.0,
+ "mc_prob_co2_2035_above_1p5x_2024": 0.96835,
+ "mc_prob_elec_2035_above_1200": 0.3412,
+ "co2_2024": 196.295,
+ "water_2024": 1.2746428571428572,
+ "water_direct_2024": 0.4446428571428572,
+ "indirect_water_share_2024_median": 0.6530772594640262,
+ "sobol": [
+  {
+   "Parameter": "AI growth 2024-30",
+   "CO2_2035_S1": 0.243,
+   "CO2_2035_ST": 0.283,
+   "Water_2035_S1": 0.149,
+   "Water_2035_ST": 0.181,
+   "Elec_2035_S1": 0.377,
+   "Elec_2035_ST": 0.428
+  },
+  {
+   "Parameter": "AI growth 2030-35",
+   "CO2_2035_S1": 0.116,
+   "CO2_2035_ST": 0.132,
+   "Water_2035_S1": 0.075,
+   "Water_2035_ST": 0.085,
+   "Elec_2035_S1": 0.184,
+   "Elec_2035_ST": 0.201
+  },
+  {
+   "Parameter": "Conventional growth 2024-30",
+   "CO2_2035_S1": 0.083,
+   "CO2_2035_ST": 0.119,
+   "Water_2035_S1": 0.055,
+   "Water_2035_ST": 0.077,
+   "Elec_2035_S1": 0.127,
+   "Elec_2035_ST": 0.182
+  },
+  {
+   "Parameter": "Conventional growth 2030-35",
+   "CO2_2035_S1": 0.07,
+   "CO2_2035_ST": 0.054,
+   "Water_2035_S1": 0.041,
+   "Water_2035_ST": 0.035,
+   "Elec_2035_S1": 0.109,
+   "Elec_2035_ST": 0.083
+  },
+  {
+   "Parameter": "Fleet PUE 2035",
+   "CO2_2035_S1": 0.083,
+   "CO2_2035_ST": 0.087,
+   "Water_2035_S1": 0.023,
+   "Water_2035_ST": 0.025,
+   "Elec_2035_S1": 0.117,
+   "Elec_2035_ST": 0.131
+  },
+  {
+   "Parameter": "Grid decarbonisation rate",
+   "CO2_2035_S1": 0.337,
+   "CO2_2035_ST": 0.362,
+   "Water_2035_S1": 0.088,
+   "Water_2035_ST": 0.103,
+   "Elec_2035_S1": 0.0,
+   "Elec_2035_ST": 0.0
+  },
+  {
+   "Parameter": "Direct WUE 2035",
+   "CO2_2035_S1": 0.0,
+   "CO2_2035_ST": 0.0,
+   "Water_2035_S1": 0.201,
+   "Water_2035_ST": 0.183,
+   "Elec_2035_S1": 0.0,
+   "Elec_2035_ST": 0.0
+  },
+  {
+   "Parameter": "Indirect water intensity",
+   "CO2_2035_S1": 0.0,
+   "CO2_2035_ST": 0.0,
+   "Water_2035_S1": 0.317,
+   "Water_2035_ST": 0.353,
+   "Elec_2035_S1": 0.0,
+   "Elec_2035_ST": 0.0
+  }
+ ],
+ "sched_CI_mean": 663.0903581525805,
+ "sched_CI_min": 366.77257209859977,
+ "sched_CI_max": 829.6178995147942,
+ "sched_ref_reduction": 6.86,
+ "sched_grid": {
+  "headroom 1.05": {
+   "0% flexible": 0.0,
+   "10% flexible": 2.58,
+   "20% flexible": 3.26,
+   "30% flexible": 3.19,
+   "40% flexible": 2.98,
+   "50% flexible": 2.71,
+   "60% flexible": 2.43
+  },
+  "headroom 1.15": {
+   "0% flexible": 0.0,
+   "10% flexible": 2.88,
+   "20% flexible": 4.39,
+   "30% flexible": 4.72,
+   "40% flexible": 4.66,
+   "50% flexible": 4.47,
+   "60% flexible": 4.24
+  },
+  "headroom 1.25": {
+   "0% flexible": 0.0,
+   "10% flexible": 3.02,
+   "20% flexible": 5.05,
+   "30% flexible": 6.0,
+   "40% flexible": 6.16,
+   "50% flexible": 6.08,
+   "60% flexible": 5.91
+  },
+  "headroom 1.35": {
+   "0% flexible": 0.0,
+   "10% flexible": 3.09,
+   "20% flexible": 5.44,
+   "30% flexible": 6.86,
+   "40% flexible": 7.52,
+   "50% flexible": 7.56,
+   "60% flexible": 7.47
+  },
+  "headroom 1.50": {
+   "0% flexible": 0.0,
+   "10% flexible": 3.16,
+   "20% flexible": 5.8,
+   "30% flexible": 7.72,
+   "40% flexible": 8.91,
+   "50% flexible": 9.56,
+   "60% flexible": 9.64
+  },
+  "headroom 1.75": {
+   "0% flexible": 0.0,
+   "10% flexible": 3.21,
+   "20% flexible": 6.1,
+   "30% flexible": 8.51,
+   "40% flexible": 10.37,
+   "50% flexible": 11.69,
+   "60% flexible": 12.52
+  }
+ },
+ "sched_window": [
+  [
+   1,
+   0.0
+  ],
+  [
+   4,
+   2.1359440530225537
+  ],
+  [
+   8,
+   4.417651387504673
+  ],
+  [
+   12,
+   6.014739111686696
+  ],
+  [
+   24,
+   6.857288829980823
+  ],
+  [
+   48,
+   6.857288829980823
+  ]
+ ],
+ "sched_ref_abs_t_week": 631.3735564076719,
+ "sched_ref_base_kt_week": 9.207335027908359,
+ "sched_ref_opt_kt_week": 8.575961471500687,
+ "lifecycle_optimal": [
+  {
+   "Grid_gCO2_kWh": 50,
+   "Lifetime_yr": 5,
+   "Total_t": 5407.5,
+   "Ewaste_t": 15.3
+  },
+  {
+   "Grid_gCO2_kWh": 150,
+   "Lifetime_yr": 4,
+   "Total_t": 9846.5,
+   "Ewaste_t": 16.7
+  },
+  {
+   "Grid_gCO2_kWh": 300,
+   "Lifetime_yr": 3,
+   "Total_t": 15692.1,
+   "Ewaste_t": 19.7
+  },
+  {
+   "Grid_gCO2_kWh": 450,
+   "Lifetime_yr": 2,
+   "Total_t": 21145.8,
+   "Ewaste_t": 25.9
+  },
+  {
+   "Grid_gCO2_kWh": 600,
+   "Lifetime_yr": 2,
+   "Total_t": 26398.2,
+   "Ewaste_t": 25.9
+  },
+  {
+   "Grid_gCO2_kWh": 750,
+   "Lifetime_yr": 2,
+   "Total_t": 31650.7,
+   "Ewaste_t": 25.9
+  }
+ ],
+ "lifecycle_optL_curve": {
+  "0.15": [
+   [
+    25,
+    7
+   ],
+   [
+    50,
+    7
+   ],
+   [
+    75,
+    5
+   ],
+   [
+    100,
+    5
+   ],
+   [
+    125,
+    5
+   ],
+   [
+    150,
+    4
+   ],
+   [
+    175,
+    4
+   ],
+   [
+    200,
+    4
+   ],
+   [
+    225,
+    3
+   ],
+   [
+    250,
+    3
+   ],
+   [
+    275,
+    3
+   ],
+   [
+    300,
+    3
+   ],
+   [
+    325,
+    3
+   ],
+   [
+    350,
+    3
+   ],
+   [
+    375,
+    3
+   ],
+   [
+    400,
+    3
+   ],
+   [
+    425,
+    3
+   ],
+   [
+    450,
+    2
+   ],
+   [
+    475,
+    2
+   ],
+   [
+    500,
+    2
+   ],
+   [
+    525,
+    2
+   ],
+   [
+    550,
+    2
+   ],
+   [
+    575,
+    2
+   ],
+   [
+    600,
+    2
+   ],
+   [
+    625,
+    2
+   ],
+   [
+    650,
+    2
+   ],
+   [
+    675,
+    2
+   ],
+   [
+    700,
+    2
+   ],
+   [
+    725,
+    2
+   ],
+   [
+    750,
+    2
+   ],
+   [
+    775,
+    2
+   ],
+   [
+    800,
+    2
+   ]
+  ],
+  "0.25": [
+   [
+    25,
+    7
+   ],
+   [
+    50,
+    7
+   ],
+   [
+    75,
+    5
+   ],
+   [
+    100,
+    5
+   ],
+   [
+    125,
+    4
+   ],
+   [
+    150,
+    4
+   ],
+   [
+    175,
+    3
+   ],
+   [
+    200,
+    3
+   ],
+   [
+    225,
+    3
+   ],
+   [
+    250,
+    3
+   ],
+   [
+    275,
+    3
+   ],
+   [
+    300,
+    3
+   ],
+   [
+    325,
+    3
+   ],
+   [
+    350,
+    3
+   ],
+   [
+    375,
+    2
+   ],
+   [
+    400,
+    2
+   ],
+   [
+    425,
+    2
+   ],
+   [
+    450,
+    2
+   ],
+   [
+    475,
+    2
+   ],
+   [
+    500,
+    2
+   ],
+   [
+    525,
+    2
+   ],
+   [
+    550,
+    2
+   ],
+   [
+    575,
+    2
+   ],
+   [
+    600,
+    2
+   ],
+   [
+    625,
+    2
+   ],
+   [
+    650,
+    2
+   ],
+   [
+    675,
+    2
+   ],
+   [
+    700,
+    2
+   ],
+   [
+    725,
+    2
+   ],
+   [
+    750,
+    2
+   ],
+   [
+    775,
+    2
+   ],
+   [
+    800,
+    2
+   ]
+  ],
+  "0.35": [
+   [
+    25,
+    7
+   ],
+   [
+    50,
+    5
+   ],
+   [
+    75,
+    5
+   ],
+   [
+    100,
+    4
+   ],
+   [
+    125,
+    4
+   ],
+   [
+    150,
+    3
+   ],
+   [
+    175,
+    3
+   ],
+   [
+    200,
+    3
+   ],
+   [
+    225,
+    3
+   ],
+   [
+    250,
+    3
+   ],
+   [
+    275,
+    3
+   ],
+   [
+    300,
+    3
+   ],
+   [
+    325,
+    2
+   ],
+   [
+    350,
+    2
+   ],
+   [
+    375,
+    2
+   ],
+   [
+    400,
+    2
+   ],
+   [
+    425,
+    2
+   ],
+   [
+    450,
+    2
+   ],
+   [
+    475,
+    2
+   ],
+   [
+    500,
+    2
+   ],
+   [
+    525,
+    2
+   ],
+   [
+    550,
+    2
+   ],
+   [
+    575,
+    2
+   ],
+   [
+    600,
+    2
+   ],
+   [
+    625,
+    2
+   ],
+   [
+    650,
+    2
+   ],
+   [
+    675,
+    2
+   ],
+   [
+    700,
+    2
+   ],
+   [
+    725,
+    2
+   ],
+   [
+    750,
+    2
+   ],
+   [
+    775,
+    2
+   ],
+   [
+    800,
+    2
+   ]
+  ]
+ },
+ "waterfall": [
+  {
+   "Step": "2035 Base-case emissions",
+   "Change_Mt": 412.4,
+   "Level_after_Mt": 412.4
+  },
+  {
+   "Step": "Facility efficiency (PUE 1.28 -> 1.15)",
+   "Change_Mt": -41.9,
+   "Level_after_Mt": 370.5
+  },
+  {
+   "Step": "Efficient AI & IT (-25 % AI, -10 % other)",
+   "Change_Mt": -57.9,
+   "Level_after_Mt": 312.6
+  },
+  {
+   "Step": "Carbon-aware scheduling (AI load)",
+   "Change_Mt": -7.2,
+   "Level_after_Mt": 305.5
+  },
+  {
+   "Step": "24/7 clean-energy matching (+40 %)",
+   "Change_Mt": -122.2,
+   "Level_after_Mt": 183.3
+  },
+  {
+   "Step": "Residual 2035",
+   "Change_Mt": 183.3,
+   "Level_after_Mt": 183.3
+  }
+ ],
+ "topsis": [
+  {
+   "Lever": "Model efficiency (distil, quantise, right-size)",
+   "Closeness_base": 0.823,
+   "Rank_base": 1,
+   "P_rank1": 1.0,
+   "P_top3": 1.0,
+   "Median_rank": 1.0
+  },
+  {
+   "Lever": "24/7 carbon-free energy PPAs",
+   "Closeness_base": 0.552,
+   "Rank_base": 2,
+   "P_rank1": 0.0,
+   "P_top3": 0.557,
+   "Median_rank": 2.0
+  },
+  {
+   "Lever": "Hardware life extension & circularity",
+   "Closeness_base": 0.525,
+   "Rank_base": 3,
+   "P_rank1": 0.0,
+   "P_top3": 0.695,
+   "Median_rank": 3.0
+  },
+  {
+   "Lever": "Carbon-aware workload scheduling",
+   "Closeness_base": 0.521,
+   "Rank_base": 4,
+   "P_rank1": 0.0,
+   "P_top3": 0.511,
+   "Median_rank": 3.0
+  },
+  {
+   "Lever": "Low-carbon, low-water-stress siting",
+   "Closeness_base": 0.425,
+   "Rank_base": 5,
+   "P_rank1": 0.0,
+   "P_top3": 0.219,
+   "Median_rank": 5.0
+  },
+  {
+   "Lever": "Liquid cooling & PUE retrofit",
+   "Closeness_base": 0.408,
+   "Rank_base": 6,
+   "P_rank1": 0.0,
+   "P_top3": 0.019,
+   "Median_rank": 5.0
+  },
+  {
+   "Lever": "Waste-heat reuse",
+   "Closeness_base": 0.195,
+   "Rank_base": 7,
+   "P_rank1": 0.0,
+   "P_top3": 0.0,
+   "Median_rank": 7.0
+  }
+ ]
+}

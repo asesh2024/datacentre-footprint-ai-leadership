@@ -1,0 +1,14 @@
+parameter,value,unit,source,url
+Global data-centre electricity 2024,415,TWh,"International Energy Agency (2025). Energy and AI",https://www.iea.org/reports/energy-and-ai
+Global data-centre electricity 2030 (IEA Base Case),945,TWh,"International Energy Agency (2025). Energy and AI",https://www.iea.org/reports/energy-and-ai
+Global data-centre electricity 2035 (IEA Base Case),1200,TWh,"International Energy Agency (2025). Energy and AI",https://www.iea.org/reports/energy-and-ai
+IEA 2035 range (low-high),700-1700,TWh,"International Energy Agency (2025). Energy and AI",https://www.iea.org/reports/energy-and-ai
+AI-server share of data-centre electricity 2024,15,%,"International Energy Agency (2025). Energy and AI",https://www.iea.org/reports/energy-and-ai
+US data-centre electricity 2014,58,TWh,"Shehabi et al. (2024). 2024 United States Data Center Energy Usage Report (LBNL-2001637)",https://doi.org/10.71468/P1WC7Q
+US data-centre electricity 2023,176,TWh,"Shehabi et al. (2024)",https://doi.org/10.71468/P1WC7Q
+US data-centre electricity 2028 (range),325-580,TWh,"Shehabi et al. (2024)",https://doi.org/10.71468/P1WC7Q
+Survey-average PUE 2007/2011/2014/2018,2.50/1.98/1.65/1.58,ratio,"Uptime Institute global data center surveys (as reported)",https://uptimeinstitute.com/resources/research-and-reports/uptime-institute-global-data-center-survey-results-2024
+Survey-average PUE 2024,1.56,ratio,"Uptime Institute (2024)",https://uptimeinstitute.com/resources/research-and-reports/uptime-institute-global-data-center-survey-results-2024
+Survey-average PUE 2025,1.54,ratio,"Uptime Institute (2025)",https://intelligence.uptimeinstitute.com/resource/uptime-institute-global-data-center-survey-2025
+Global grid carbon intensity 2024,473,gCO2/kWh,"Ember (2025). Global Electricity Review 2025",https://ember-energy.org/latest-insights/global-electricity-review-2025/
+Global grid carbon intensity 2025 (2.7% decline),458,gCO2/kWh,"Ember (2026). Global Electricity Review 2026",https://ember-energy.org/latest-insights/global-electricity-review-2026/electricity-demand-and-supply-trends/

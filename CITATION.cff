@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or its outputs, please cite it as below."
+title: "Code and data for: Powering Intelligence, Pricing the Planet - A Computational Assessment of the Environmental Footprint of Data Centres and the Digital-Leadership Agenda for Sustainable AI"
+authors:
+  - family-names: Tripathy
+    given-names: Asesh Kumar
+    affiliation: "Koneru Lakshmaiah Education Foundation, India"
+version: 1.0.0
+date-released: 2026-10-15
+license: MIT
+repository-code: "https://github.com/asesh2024/datacentre-footprint-ai-leadership"

@@ -1,0 +1,12 @@
+Parameter,Value,Basis
+Data-centre electricity 2024,415 TWh,IEA (2025)
+AI-server share of DC electricity 2024,15 %,IEA (2025)
+Energy-weighted fleet PUE 2024,1.40,"Assumption bounded by hyperscale 1.10-1.15 and survey mean 1.54-1.56 (Uptime 2024, 2025)"
+Grid carbon intensity 2024,473 gCO2/kWh,Ember (2025)
+Grid decarbonisation rate (base),2.7 %/yr,Ember (2026): 2025 decline
+Direct WUE 2024 (fleet blend),1.5 L/kWh IT,Range 1.2-1.9 in industry surveys
+Indirect water intensity of electricity,2.0 L/kWh,Global average used in literature
+AI IT growth 2024-30 / 2030-35 (base),30 % / 10 %,IEA (2025): accelerated servers ~30 %/yr
+Conventional IT growth 2024-30 (base),11.9 %,Calibrated to 945 TWh in 2030
+Conventional IT growth 2030-35 (base),3 %,Assumption
+Fleet PUE 2030 / 2035 (base),1.33 / 1.28,Assumption (new-build share rising)

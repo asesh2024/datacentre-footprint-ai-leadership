@@ -1,0 +1,7 @@
+Step,Change_Mt,Level_after_Mt
+2035 Base-case emissions,412.4,412.4
+Facility efficiency (PUE 1.28 -> 1.15),-41.9,370.5
+"Efficient AI & IT (-25 % AI, -10 % other)",-57.9,312.6
+Carbon-aware scheduling (AI load),-7.2,305.5
+24/7 clean-energy matching (+40 %),-122.2,183.3
+Residual 2035,183.3,183.3
